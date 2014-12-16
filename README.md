@@ -41,6 +41,10 @@ Attributes
   - String. Port for Privoxy to listen
   - Defaults to 8090
 
+* `privoxy['toggle']`
+  - Integer. 0 to start with all the features toggled off, 1 to start toggled on
+  - Defaults to 1
+
 ### Source specific
 
 * `privoxy['prefix_dir']`

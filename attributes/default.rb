@@ -49,3 +49,5 @@ default['privoxy']['configure_options'] = %W{
 --datarootdir=#{privoxy['doc_dir']}
 --sysconfdir=#{privoxy['config_dir']}
 }
+
+default['privoxy']['toggle'] = 1
