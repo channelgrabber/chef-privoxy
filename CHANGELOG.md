@@ -2,6 +2,10 @@
 
 This file is used to list changes made in each version of privoxy.
 
+1.0.1-2
+-----
+- Added `ip` attribute
+
 1.0.1-1
 -----
 - Added `toggle` attribute

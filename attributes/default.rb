@@ -33,6 +33,7 @@ default['privoxy']['url']['list'] = [
 ]
 
 default['privoxy']['port'] = "8090"
+default['privoxy']['ip'] = "localhost"
 
 default['privoxy']['url'] = "http://iweb.dl.sourceforge.net/project/ijbswa/Sources/3.0.21%20%28stable%29"
 default['privoxy']['version'] = "3.0.21"

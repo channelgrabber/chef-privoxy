@@ -37,6 +37,10 @@ Attributes
 * `privoxy['url']['list']`
   - Array. List of AdBlock Plus subscription URLs
 
+* `privoxy['ip']`
+  - String. IP for Privoxy to listen to
+  - Defaults to localhost
+
 * `privoxy['port']`
   - String. Port for Privoxy to listen
   - Defaults to 8090

@@ -15,7 +15,7 @@ actionsfile user.action      # User customizations
 filterfile default.filter
 filterfile user.filter      # User customizations
 logfile logfile
-listen-address  localhost:<%= node['privoxy']['port'] %>
+listen-address  <%= node['privoxy']['ip'] %>:<%= node['privoxy']['port'] %>
 toggle  <%= node['privoxy']['toggle'] %>
 enable-remote-toggle  0
 enable-remote-http-toggle  0
